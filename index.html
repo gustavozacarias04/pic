@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DEMS</title>
+
+    <link rel="icon" type="image/svg+xml" href="/dems.svg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+
+    <script src="src/script.js" defer></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CywfjPQH.css">
+  </head>
+
+  <body class="bg-black font-sans">
+    <div class="responsive-container bg-black p-6">
+      <nav class="py-5 flex justify-between items-center">
+        <span class="text-white font-bold text-4xl">DEMS</span>
+        <div class="space-x-8 flex items-center">
+          <button
+            class="bg-white text-black px-7 py-3 rounded-full hover:bg-[#42FD64]"
+          >
+            Contact
+          </button>
+          <button
+            id="menu-btn"
+            class="bg-[#42FD64] rounded-full p-3 flex justify-center items-center"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 text-black"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </button>
+        </div>
+      </nav>
+
+      <div class="dems mt-20 space-y-1 text-left text-8xl font-bold md:text-6xl sm:text-base">
+        <span class="block text-white">Dynamic</span>
+        <span class="block text-[#42FD64]">Emergency</span>
+        <span class="block text-[#FDDC42]">Monitoring</span>
+        <span class="block text-[#FD6442]">System</span>
+      </div>
+      
+      <div class="mt-8 space-y-2 text-left text-white text-5xl font-normal md:text-3xl">
+        <span class="block">Your Life, Our Priority</span>
+        <span class="block text-white ml-14 sm:ml-0">
+          Real-Time Care When It Matters Most
+        </span>
+      </div>
+      
+    </div>
+
+    <div id="menu-overlay" class="menu-overlay hidden">
+      <span id="close-btn" class="close-btn">&times;</span>
+      <span class="menu-title text-white text-4xl ml-20 mb-8">Menu</span>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Team</a>
+      <a href="#">Blog</a>
+      <a href="#">FAQs</a>
+      <a href="#">Contact</a>
+    </div>
+  </body>
+</html>
